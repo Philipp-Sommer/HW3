@@ -49,10 +49,11 @@ def calc_distance(string_list, CUST_NO1, CUST_NO2):
     y1 = float(rel_string1_spl[2])
     x2 = float(rel_string2_spl[1])
     y2 = float(rel_string2_spl[2])
-    print(x1, x2, y1, y2)
+    #print(x1, x2, y1, y2)
     distance = ((y1 - y2)**2 + (x1 - x2)**2)**(1/2)
     return distance
 
 #string_list = read_string_list()
 #solution_f3 = calc_distance(string_list, 1, 2)
 #print(solution_f3)
+# test

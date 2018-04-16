@@ -56,3 +56,4 @@ def calc_distance(string_list, CUST_NO1, CUST_NO2):
 #string_list = read_string_list()
 #solution_f3 = calc_distance(string_list, 1, 2)
 #print(solution_f3)
+# test

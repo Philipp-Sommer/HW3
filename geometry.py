@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
-"""Functions calculating characteristic numbers of common gemoetric shapes."""
+"""Functions calculating characteristic numbers of common gemoetric shapes.
+
+.. moduleauthor:: Philipp Sommer <philipp.sommer@edu.uni-graz.at>
+.. moduleauthor:: Nathalie Friess last <first.last@edu.uni-graz.at>
+"""
 
 import math
 

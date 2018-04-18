@@ -3,9 +3,9 @@
 """
 This module provides a function to sum all numbers from 0 up to a given integer.
 
-.. moduleauthor: 
+.. moduleauthor:: Philipp Sommer <philipp.sommer@edu.uni-graz.at>
+.. moduleauthor:: Nathalie Friess last <first.last@edu.uni-graz.at>
 """
-
 
 def sum_to(num):
     """
@@ -13,10 +13,11 @@ def sum_to(num):
 
     Assert that no negative numbers are entered.
     """
+
     assert num >= 0, "Input was negative!"
     count = 0
-    sum = 0
+    addition = 0
     while count <= num:
-        sum += count
+        addition += count
         count += 1
-    return sum
+    return addition
